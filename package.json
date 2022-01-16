@@ -1,0 +1,33 @@
+{
+  "name": "gpa-calculator",
+  "version": "1.0.0",
+  "description": "Web Application that computes Grade Point Average(GPA)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Pruthiev A S",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.3",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0"
+  },
+  "engines": {
+    "node": "16.13.0"
+  }
+}

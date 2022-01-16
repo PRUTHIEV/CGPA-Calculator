@@ -1,0 +1,133 @@
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b30000;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: green;
+}
+.body-home {
+  background-image: linear-gradient(315deg, #ffac81 0%, #ff928b 74%);
+}
+.body-gpa {
+  background-color: #fff;
+}
+nav.navbar {
+  height: 10rem;
+}
+.navbar-brand img {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+ul.navbar-nav {
+  position: absolute;
+  right: 7rem;
+}
+
+li.nav-item {
+  font-size: 1.1rem;
+  margin-left: 2rem;
+}
+.dropdown-menu {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.menus {
+  background-color: #ea5c2b;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-bottom: 0.5rem;
+}
+.menus:hover {
+  background-color: #3e7c17;
+}
+.welcome-msg {
+  margin-top: 2rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.welcome-msg .new-year {
+  margin-left: 1rem;
+  margin-right: 7rem;
+}
+.welcome-msg .welcome {
+  margin-right: 2rem;
+}
+.section {
+  margin-top: 1rem;
+  text-align: center;
+}
+img.male-student {
+  height: 9rem;
+  width: 9rem;
+  margin-right: 8rem;
+}
+img.female-student {
+  height: 8rem;
+  width: 8rem;
+}
+.grades-calculate {
+  margin-top: 2rem;
+}
+.gpa {
+  border-style: solid;
+  border-color: #000;
+  border-width: 3px;
+  height: 8.5rem;
+  width: 8.5rem;
+  border-radius: 100%;
+  margin-right: 8rem;
+}
+.gpa a {
+  text-decoration: none;
+  color: white;
+}
+.cgpa {
+  border-style: solid;
+  border-color: #000;
+  border-width: 3px;
+  height: 8.5rem;
+  width: 8.5rem;
+  border-radius: 100%;
+}
+.cgpa a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #000;
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 1rem;
+  color: #fff;
+}

@@ -1,0 +1,121 @@
+* {
+  color: white;
+}
+option {
+  background-color: #000;
+}
+.body-gpa {
+  background-image: linear-gradient(#ff512f, #dd2476);
+  position: relative;
+  min-height: 100vh;
+}
+nav.navbar {
+  height: 10rem;
+}
+.navbar-brand img {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+ul.navbar-nav {
+  position: absolute;
+  right: 7rem;
+}
+
+li.nav-item {
+  font-size: 1.1rem;
+  margin-left: 2rem;
+}
+.dropdown-menu {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.menus {
+  background-color: #ea5c2b;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-bottom: 0.5rem;
+}
+.menus:hover {
+  background-color: #3e7c17;
+}
+.gpa-fields {
+  margin-top: 3rem;
+  text-align: center;
+}
+span.dropdown {
+  border-style: solid;
+  border-color: #000;
+  border-width: 2px;
+  border-radius: 50px;
+  display: inline-block;
+  width: 25%;
+  height: 3rem;
+  padding-top: 0.5rem;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  margin-right: 2rem;
+}
+
+.dropdown-subjects,
+.dropdown-credits,
+.dropdown-grades {
+  border-style: none;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+.grades {
+  margin-left: 2rem;
+}
+.input-fields {
+  box-sizing: unset;
+}
+.btn-submit {
+  margin-bottom: 3rem;
+}
+select.dropdown-subjects {
+  background-image: linear-gradient(#ff512f, #dd2476);
+}
+select.dropdown-credits {
+  background-image: linear-gradient(#ff512f, #dd2476);
+}
+select.dropdown-grades {
+  background-image: linear-gradient(#ff512f, #dd2476);
+}
+.gpa-val-box,
+.save-close-box {
+  border-style: solid;
+  background-color: orange;
+  border-width: 0px;
+  border-radius: 25px;
+  display: inline-block;
+  height: 7rem;
+  width: 15%;
+}
+#input-save-name {
+  display: none;
+}
+.save-close-box {
+  display: none;
+}
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  height: 5rem;
+  background-color: #000;
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 1rem;
+  color: #fff;
+}
